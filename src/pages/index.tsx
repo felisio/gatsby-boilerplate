@@ -16,7 +16,7 @@ const headingAccentStyles = {
 }
 
 
-// markup
+//  markup
 const IndexPage = () => {
   return (
     <main style={pageStyles}>
@@ -24,7 +24,7 @@ const IndexPage = () => {
       <h1 style={headingStyles}>
         Congratulations
         <br />
-        <span style={headingAccentStyles}>Gatsby Boilerplate</span>
+        <span style={headingAccentStyles}>Gatsby Boilerplate by pedro</span>
         <span role="img" aria-label="Party popper emojis">
           🎉🎉🎉
         </span>
