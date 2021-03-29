@@ -24,7 +24,7 @@ const IndexPage = () => {
       <h1 style={headingStyles}>
         Congratulations
         <br />
-        <span style={headingAccentStyles}>Gatsby Boilerplate</span>
+        <span style={headingAccentStyles}>Gatsby Boilerplate preview environment</span>
         <span role="img" aria-label="Party popper emojis">
           🎉🎉🎉
         </span>
