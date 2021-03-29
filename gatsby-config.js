@@ -1,6 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: "gatsby-boilerplate",
+    siteUrl: "",
   },
   plugins: [
     {
