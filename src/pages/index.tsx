@@ -16,7 +16,7 @@ const headingAccentStyles = {
 }
 
 
-// markup
+//  markup
 const IndexPage = () => {
   return (
     <main style={pageStyles}>
