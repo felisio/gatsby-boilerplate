@@ -13,3 +13,7 @@ jobs:
         uses: actions-js/push@main
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: "main"
+          empty: true
+          force: true
+          message: "Deploy Production"
