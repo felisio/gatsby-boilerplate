@@ -1,3 +1,7 @@
+name: Deploy Webhook
+
+on: push
+
 jobs:
   build:
     runs-on: ubuntu-latest
