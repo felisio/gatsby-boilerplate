@@ -1,6 +1,10 @@
 name: Deploy Webhook
 
-on: push
+on:
+  repository_dispatch:
+    types:
+      - deploy-production
+      - deploy-develop
 
 jobs:
   build:
@@ -17,7 +21,7 @@ jobs:
         uses: actions-js/push@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: "main"
+          branch: ${{ github.event.action == 'deploy-production' && 'main' || 'develop' }}
           empty: true
           force: true
           message: "Deploy Production"
