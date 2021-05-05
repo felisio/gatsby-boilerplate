@@ -1,0 +1,430 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should verify ScrollableCategoryMenu snapshot 1`] = `
+.c0 {
+  --menu-width: 97%;
+  display: block;
+  width: var(--menu-width);
+  -webkit-animation: ScrollableCategoryMenuAnimation 0.8s forwards;
+  animation: ScrollableCategoryMenuAnimation 0.8s forwards;
+}
+
+.c1 {
+  z-index: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 93%;
+  height: 40px;
+  margin-bottom: 0;
+  overflow-x: scroll;
+  -webkit-scrollbar-width: none;
+  -moz-scrollbar-width: none;
+  -ms-scrollbar-width: none;
+  scrollbar-width: none;
+  -webkit-overflow-scrolling: touch;
+}
+
+.c1::-webkit-scrollbar {
+  display: none;
+}
+
+.c2 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  padding: 0.7rem 1.2rem 0.8rem;
+  margin: 0 0.4rem;
+  font-size: 1.8rem;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  white-space: nowrap;
+  cursor: pointer;
+  background-color: var(--white);
+  border: solid 1px var(--white);
+  border-radius: 4px;
+}
+
+.c2:first-of-type {
+  margin-left: 0;
+}
+
+.c2:first-of-type {
+  margin-left: 0;
+}
+
+.c2 + a {
+  margin: 0 0.4rem;
+}
+
+.c2 + div {
+  margin: 0 0.4rem;
+}
+
+.c2.inactive {
+  font-weight: normal;
+  color: var(--lynch);
+}
+
+.c2.inactive:hover {
+  color: var(--shuttle-grey);
+  background-color: var(--athens-grey);
+  border: solid 1px var(--athens-grey);
+  border-radius: 4px;
+}
+
+.c2.active {
+  font-weight: 500;
+  color: var(--white);
+  background-color: var(--lynch);
+  border-radius: 4px;
+  box-shadow: 2px 6px 20px 0 rgba(0,0,0,0.05);
+}
+
+.c5.icon-12 {
+  width: 1.2rem;
+  height: 1.2rem;
+}
+
+.c5.icon-16 {
+  width: 1.6rem;
+  height: 1.6rem;
+}
+
+.c5.icon-18 {
+  width: 1.8rem;
+  height: 1.8rem;
+}
+
+.c5.icon-24 {
+  width: 2.4rem;
+  height: 2.4rem;
+}
+
+.c5.icon-32 {
+  width: 3.2rem;
+  height: 3.2rem;
+}
+
+.c5.icon-128 {
+  width: 12.8rem;
+  height: 3.8rem;
+}
+
+.c7 {
+  padding: 0;
+  margin: 0;
+}
+
+.c3 {
+  position: static;
+  display: block;
+}
+
+.c4 button {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  font-family: 'ApercuMediumPro';
+  font-size: 1.6rem;
+  line-height: 1.25;
+  color: var(--white);
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  -webkit-transition: 0.24s opacity ease-in-out;
+  transition: 0.24s opacity ease-in-out;
+}
+
+.c4 button:focus {
+  border: none;
+  outline: none;
+}
+
+.c4 button:hover {
+  opacity: 0.5;
+}
+
+.c4 button.dark {
+  color: var(--lynch);
+}
+
+.c4 button.dark:hover {
+  color: var(--fiord);
+  opacity: 1;
+}
+
+.c4 button.category {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  padding: 0.7rem 1.2rem 0.8rem;
+  font-size: 1.8rem;
+  font-weight: normal;
+  line-height: normal;
+  color: var(--lynch);
+}
+
+.c4 button.category.active,
+.c4 button.category.active:hover,
+.c4 button.category.active:focus,
+.c4 button.category.active:focus:hover {
+  font-weight: 500;
+  color: var(--white);
+  background-color: var(--lynch);
+  border-radius: 4px;
+  box-shadow: 2px 6px 20px 0 var(--black-transparent-5);
+}
+
+.c4 button.category:focus,
+.c4 button.category:focus:hover,
+.c4 button.category:hover {
+  color: var(--shuttle-grey);
+  background-color: var(--athens-grey);
+  border-radius: 4px;
+  opacity: 1;
+}
+
+.c4 button img {
+  position: relative;
+  top: 1.2px;
+  left: 4px;
+  opacity: 0.5;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+
+.c6 {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 20.7rem;
+  padding: 1.2rem 0;
+  margin-top: 1.3rem;
+  margin-left: 0.5rem;
+  pointer-events: none;
+  background-color: var(--white);
+  border: solid 1px var(--athens-grey);
+  border-radius: 4px;
+  box-shadow: 0 0 16px 0 var(--black-transparent-12);
+  opacity: 0;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+  -webkit-transform: translateY(-8px);
+  -ms-transform: translateY(-8px);
+  transform: translateY(-8px);
+}
+
+.c6 .arrow {
+  position: absolute;
+  top: -10px;
+  left: calc(100% - 48px);
+  display: block;
+  width: 19px;
+  height: 20px;
+  -webkit-clip-path: polygon(0% 0%,100% 100%,0% 100%);
+  clip-path: polygon(0% 0%,100% 100%,0% 100%);
+  background-color: inherit;
+  border: inherit;
+  border-radius: 0 0 0 0.4em;
+  -webkit-transform: rotate(134deg);
+  -ms-transform: rotate(134deg);
+  transform: rotate(134deg);
+}
+
+.c6 ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.c6 ul li a {
+  display: block;
+  padding: 0 2.2rem;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: normal;
+  font-stretch: normal;
+  line-height: 30px;
+  color: var(--shuttle-grey);
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+}
+
+.c6 ul li a:hover {
+  color: var(--shuttle-grey);
+  background-color: var(--pale-grey);
+}
+
+.c6 ul li.active a {
+  color: var(--wild-watermelon);
+}
+
+.c6 ul li.active a:hover {
+  color: var(--wild-watermelon);
+}
+
+.c6 .divider {
+  width: 100%;
+  height: 1px;
+  margin: 1.1rem 0 1rem;
+  background-color: var(--athens-grey);
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <a
+      className="c2 active"
+      href="/category/home/"
+    >
+      Home
+    </a>
+    <a
+      className="c2 inactive"
+      href="/category/changethecourse/"
+    >
+      #ChangeTheCourse
+    </a>
+    <a
+      className="c2 inactive"
+      href="/category/alumni/"
+    >
+      Alumni
+    </a>
+    <a
+      className="c2 inactive"
+      href="/category/careers/"
+    >
+      Careers
+    </a>
+    <a
+      className="c2 inactive"
+      href="/category/companies-universities/"
+    >
+      Companies & Universities
+    </a>
+    <a
+      className="c2 inactive"
+      href="/category/company/"
+    >
+      Company
+    </a>
+    <a
+      className="c2 inactive"
+      href="/category/engineering/"
+    >
+      Engineering
+    </a>
+    <a
+      className="c2 inactive"
+      href="/category/experiments/"
+    >
+      Experiments
+    </a>
+    <div
+      className="c3"
+    >
+      <div
+        className="c4"
+      >
+        <button
+          className="
+                    category
+                    
+                     dark"
+          onClick={[Function]}
+          type="button"
+        >
+          Fields of Study
+          <img
+            alt="downChevron"
+            className="c5 icon-16"
+            src="test-file-stub"
+          />
+        </button>
+      </div>
+      <div
+        className="c6"
+      >
+        <span
+          className="arrow"
+        />
+        <ul>
+          <li
+            className="c7"
+          >
+            <a
+              href="/category/fields-of-study/accounting/"
+            >
+              Accounting
+            </a>
+          </li>
+          <li
+            className="c7"
+          >
+            <a
+              href="/category/fields-of-study/entrepreneurship/"
+            >
+              Entrepreneurship
+            </a>
+          </li>
+          <li
+            className="c7"
+          >
+            <a
+              href="/category/fields-of-study/finance/"
+            >
+              Finance
+            </a>
+          </li>
+          <li
+            className="c7"
+          >
+            <a
+              href="/category/fields-of-study/strategy/"
+            >
+              Strategy
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <a
+      className="c2 inactive"
+      href="/category/inspiration/"
+    >
+      Inspiration
+    </a>
+    <a
+      className="c2 inactive"
+      href="/category/learning-2/"
+    >
+      Learning
+    </a>
+    <a
+      className="c2 inactive"
+      href="/category/network/"
+    >
+      Network
+    </a>
+  </div>
+</div>
+`;

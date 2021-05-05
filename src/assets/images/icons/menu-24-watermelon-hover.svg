@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+    <defs>
+        <filter id="qodurztjua">
+            <feColorMatrix in="SourceGraphic" values="0 0 0 0 1.000000 0 0 0 0 0.380392 0 0 0 0 0.458824 0 0 0 1.000000 0"/>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g filter="url(#qodurztjua)" transform="translate(-227 -375) translate(227 375)">
+                <path fill="#FFF" d="M20.505 17c.777 0 1.416.59 1.488 1.355L22 18.5c0 .828-.67 1.5-1.495 1.5H1.495C.669 20 0 19.334 0 18.5c0-.828.67-1.5 1.495-1.5h19.01zm0-8c.777 0 1.416.59 1.488 1.355L22 10.5c0 .828-.67 1.5-1.495 1.5H1.495C.669 12 0 11.334 0 10.5 0 9.672.67 9 1.495 9h19.01zm0-8c.777 0 1.416.59 1.488 1.355L22 2.5c0 .828-.67 1.5-1.495 1.5H1.495C.669 4 0 3.334 0 2.5 0 1.672.67 1 1.495 1h19.01z" transform="translate(1 1)"/>
+            </g>
+        </g>
+    </g>
+</svg>

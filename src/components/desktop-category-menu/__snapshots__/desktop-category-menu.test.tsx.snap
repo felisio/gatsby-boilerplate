@@ -1,0 +1,939 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should verify DesktopCategoryMenu snapshot 1`] = `
+.c1 {
+  box-sizing: border-box;
+  padding-right: 1.6rem;
+  padding-left: 1.6rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.c1::after,
+.c1::before {
+  display: table;
+  content: ' ';
+}
+
+.c1::after {
+  clear: both;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: space-around;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: space-around;
+  justify-content: space-around;
+  -webkit-box-pack: space-around;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: space-around;
+  justify-content: space-around;
+}
+
+.c2 .content {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-around;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: space-around;
+  justify-content: space-around;
+  width: 63%;
+  height: 40px;
+  margin: initial;
+}
+
+.c2 .line {
+  display: block;
+  width: 100%;
+  height: 1px;
+  margin-top: 2rem;
+  background: linear-gradient( to right, rgba(155,168,187,0), rgba(155,168,187,0.3) 49%, rgba(155,168,187,0) );
+}
+
+.c8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c8 .content {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-around;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: space-around;
+  justify-content: space-around;
+  width: 74%;
+  height: 40px;
+  margin: auto;
+}
+
+.c8 .line {
+  display: block;
+  width: 100%;
+  height: 1px;
+  margin-top: 2rem;
+  background: linear-gradient( to right, rgba(155,168,187,0), rgba(155,168,187,0.3) 49%, rgba(155,168,187,0) );
+}
+
+.c0 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 5;
+  display: none;
+  width: 100%;
+  padding: 1.5rem 0;
+  background-color: var(--white);
+  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.1);
+  -webkit-transition: -webkit-transform 0.6s ease-in-out;
+  -webkit-transition: transform 0.6s ease-in-out;
+  transition: transform 0.6s ease-in-out;
+  -webkit-transform: translateY(-130px);
+  -ms-transform: translateY(-130px);
+  transform: translateY(-130px);
+  will-change: transform;
+}
+
+.c0.stick {
+  -webkit-transform: translateY(0);
+  -ms-transform: translateY(0);
+  transform: translateY(0);
+}
+
+.c7 {
+  display: none;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+  height: 75px;
+  padding: 1.5rem 13.2rem 0 13.2rem;
+  background-color: var(--white);
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  width: 37%;
+}
+
+.c5 .log-in {
+  margin-right: 3.2rem;
+  font-size: 1.3rem;
+  font-weight: bold;
+  line-height: 1.23;
+  color: var(--lynch);
+  text-align: right;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  -webkit-letter-spacing: 0.6px;
+  -moz-letter-spacing: 0.6px;
+  -ms-letter-spacing: 0.6px;
+  letter-spacing: 0.6px;
+}
+
+.c3 {
+  --menu-width: 97%;
+  display: block;
+  width: var(--menu-width);
+  -webkit-animation: ScrollableCategoryMenuAnimation 0.8s forwards;
+  animation: ScrollableCategoryMenuAnimation 0.8s forwards;
+}
+
+.c4 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 10%;
+  padding: 0.71rem 0;
+  margin: 0 0 0 auto;
+  -webkit-transition-duration: 1s;
+  transition-duration: 1s;
+  -webkit-transition-property: width;
+  transition-property: width;
+}
+
+.c4.search-open {
+  width: 100%;
+}
+
+.c4.search-open .search-input:active,
+.c4.search-open .search-input:focus {
+  caret-color: var(--wild-watermelon);
+}
+
+.c4.search-open .search-button {
+  margin: 0 1.6rem 0 0;
+}
+
+.c4 .search-button {
+  display: inline-block;
+  padding: 0;
+  vertical-align: middle;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.c4 .search-button:focus {
+  border: none;
+  outline: none;
+}
+
+.c4 .search-button::after {
+  position: absolute;
+  top: -10px;
+  width: 3rem;
+  height: 5.6rem;
+  content: '';
+  background: linear-gradient(to right,var(--white),var(--white-opacity) 36%,var(--black-opacity));
+}
+
+.c4 .search-input {
+  display: inline-block;
+  display: none;
+  width: 100%;
+  padding: 0 1rem 0 0;
+  margin: 0;
+  font-size: 1.8rem;
+  color: var(--fiord);
+  vertical-align: middle;
+  background: transparent;
+  border: none;
+  outline: none;
+  caret-color: var(--fiord);
+}
+
+.c4 .search-input::-webkit-search-decoration,
+.c4 .search-input::-webkit-search-cancel-button,
+.c4 .search-input::-webkit-search-results-button,
+.c4 .search-input::-webkit-search-results-decoration {
+  display: none;
+}
+
+.c4 .search-input:placeholder {
+  font-size: 1.8rem;
+  color: rgba(89,104,124,0.8);
+}
+
+.c4 .close-button {
+  padding: 0;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  opacity: 1;
+  -webkit-animation-name: fadeInOpacity;
+  animation-name: fadeInOpacity;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-timing-function: ease-in;
+  animation-timing-function: ease-in;
+}
+
+.c6 {
+  --standard-box-shadow: 0 1px 4px 0 var(--black-transparent-8),0 4px 6px 0 rgba(92,92,92,0.12);
+  --white-on-blue-hover-box-shadow: 0 8px 12px 0 rgba(233,253,216,0.02),0 3px 8px 0 rgba(92,92,92,0.12);
+  --watermelon-on-white-box-shadow: 0 1px 4px 0 rgba(0,0,0,0.08),0 4px 6px 0 rgba(92,92,92,0.12);
+  --watermelon-on-white-hover-box-shadow: 0 8px 12px 0 rgba(233,253,216,0.02), 0 3px 8px 0 var(--black-transparent-12);
+  --white-on-watermelon-box-shadow: 0 1px 4px 0 rgba(0,0,0,0.08),0 4px 6px 0 rgba(92,92,92,0.12);
+  --white-on-watermelon-hover-box-shadow: 0 8px 12px 0 rgba(233,253,216,0.02),0 3px 8px 0 rgba(0,0,0,0.12);
+  display: inline-block;
+  width: auto;
+  max-width: 28.8rem;
+  border-radius: 4px;
+  box-shadow: var(--standard-box-shadow);
+  font-weight: bold;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  outline-style: none;
+}
+
+.c6.medium {
+  font-size: 1.3rem;
+  line-height: 1.23;
+  -webkit-letter-spacing: 0.6px;
+  -moz-letter-spacing: 0.6px;
+  -ms-letter-spacing: 0.6px;
+  letter-spacing: 0.6px;
+  padding: 1.2rem 2rem;
+}
+
+.c6.large {
+  font-size: 1.5rem;
+  line-height: normal;
+  -webkit-letter-spacing: 0.9px;
+  -moz-letter-spacing: 0.9px;
+  -ms-letter-spacing: 0.9px;
+  letter-spacing: 0.9px;
+  padding: 1.5rem 2rem;
+}
+
+.c6.white-on-blue {
+  color: var(--white);
+  background-color: var(--dodger-blue);
+}
+
+.c6.white-on-blue:hover,
+.c6.white-on-blue::selection {
+  background-color: var(--dodger-blue-light);
+  box-shadow: var(--white-on-blue-hover-box-shadow);
+}
+
+.c6.white-on-watermelon {
+  color: var(--white);
+  background-color: var(--wild-watermelon);
+  box-shadow: var(--white-on-watermelon-box-shadow);
+}
+
+.c6.white-on-watermelon:hover,
+.c6.white-on-watermelon::selection {
+  background-color: var(--wild-watermelon-light);
+  box-shadow: var(--white-on-watermelon-hover-box-shadow);
+}
+
+.c6.watermelon-on-white {
+  color: var(--wild-watermelon);
+  background-color: var(--white);
+  box-shadow: var(--watermelon-on-white-box-shadow);
+}
+
+.c6.watermelon-on-white:hover,
+.c6.watermelon-on-white::selection {
+  opacity: 0.95;
+  box-shadow: var(--watermelon-on-white-hover-box-shadow);
+}
+
+@media (min-width:768px) {
+  .c1 {
+    width: 750px;
+  }
+}
+
+@media (min-width:992px) {
+  .c1 {
+    width: 970px;
+  }
+}
+
+@media (min-width:1200px) {
+  .c1 {
+    width: 1170px;
+  }
+}
+
+@media (min-width:992px) {
+  .c0 {
+    display: block;
+  }
+}
+
+@media (min-width:992px) {
+  .c7 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+@media not all and (min-resolution:0.001dpcm) {
+
+}
+
+<div>
+  <div
+    className="c0"
+  >
+    <div
+      className="c1 c2"
+    >
+      <div
+        className="content"
+      >
+        <div
+          className="c3"
+        />
+        <div
+          className="c4"
+        >
+          <input
+            className="search-input"
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            placeholder="Search here"
+            type="search"
+            value=""
+          />
+        </div>
+      </div>
+      <div
+        className="c5"
+      >
+        <a
+          className="log-in"
+          href=""
+        >
+          Log In
+        </a>
+        <a
+          className="c6 white-on-watermelon medium"
+          href=""
+        >
+          
+        </a>
+      </div>
+    </div>
+  </div>
+  <div
+    className="c7"
+  >
+    <div
+      className="c1 c8"
+    >
+      <div
+        className="content"
+      >
+        <div
+          className="c3"
+        />
+        <div
+          className="c4"
+        >
+          <input
+            className="search-input"
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            placeholder="Search here"
+            type="search"
+            value=""
+          />
+        </div>
+      </div>
+      <span
+        className="line"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`should verify that DesktopCategoryMenu with input open snapshot 1`] = `
+.c1 {
+  box-sizing: border-box;
+  padding-right: 1.6rem;
+  padding-left: 1.6rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.c1::after,
+.c1::before {
+  display: table;
+  content: ' ';
+}
+
+.c1::after {
+  clear: both;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: space-around;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: space-around;
+  justify-content: space-around;
+  -webkit-box-pack: space-around;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: space-around;
+  justify-content: space-around;
+}
+
+.c2 .content {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-around;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: space-around;
+  justify-content: space-around;
+  width: 63%;
+  height: 40px;
+  margin: initial;
+}
+
+.c2 .line {
+  display: block;
+  width: 100%;
+  height: 1px;
+  margin-top: 2rem;
+  background: linear-gradient( to right, rgba(155,168,187,0), rgba(155,168,187,0.3) 49%, rgba(155,168,187,0) );
+}
+
+.c8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c8 .content {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-around;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: space-around;
+  justify-content: space-around;
+  width: 74%;
+  height: 40px;
+  margin: auto;
+}
+
+.c8 .line {
+  display: block;
+  width: 100%;
+  height: 1px;
+  margin-top: 2rem;
+  background: linear-gradient( to right, rgba(155,168,187,0), rgba(155,168,187,0.3) 49%, rgba(155,168,187,0) );
+}
+
+.c0 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 5;
+  display: none;
+  width: 100%;
+  padding: 1.5rem 0;
+  background-color: var(--white);
+  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.1);
+  -webkit-transition: -webkit-transform 0.6s ease-in-out;
+  -webkit-transition: transform 0.6s ease-in-out;
+  transition: transform 0.6s ease-in-out;
+  -webkit-transform: translateY(-130px);
+  -ms-transform: translateY(-130px);
+  transform: translateY(-130px);
+  will-change: transform;
+}
+
+.c0.stick {
+  -webkit-transform: translateY(0);
+  -ms-transform: translateY(0);
+  transform: translateY(0);
+}
+
+.c7 {
+  display: none;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+  height: 75px;
+  padding: 1.5rem 13.2rem 0 13.2rem;
+  background-color: var(--white);
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  width: 37%;
+}
+
+.c5 .log-in {
+  margin-right: 3.2rem;
+  font-size: 1.3rem;
+  font-weight: bold;
+  line-height: 1.23;
+  color: var(--lynch);
+  text-align: right;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  -webkit-letter-spacing: 0.6px;
+  -moz-letter-spacing: 0.6px;
+  -ms-letter-spacing: 0.6px;
+  letter-spacing: 0.6px;
+}
+
+.c3 {
+  --menu-width: 97%;
+  display: none;
+  width: var(--menu-width);
+  -webkit-animation: ScrollableCategoryMenuAnimation 0.8s forwards;
+  animation: ScrollableCategoryMenuAnimation 0.8s forwards;
+}
+
+.c4 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 10%;
+  padding: 0.71rem 0;
+  margin: 0 0 0 auto;
+  -webkit-transition-duration: 1s;
+  transition-duration: 1s;
+  -webkit-transition-property: width;
+  transition-property: width;
+}
+
+.c4.search-open {
+  width: 100%;
+}
+
+.c4.search-open .search-input:active,
+.c4.search-open .search-input:focus {
+  caret-color: var(--wild-watermelon);
+}
+
+.c4.search-open .search-button {
+  margin: 0 1.6rem 0 0;
+}
+
+.c4 .search-button {
+  display: inline-block;
+  padding: 0;
+  vertical-align: middle;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.c4 .search-button:focus {
+  border: none;
+  outline: none;
+}
+
+.c4 .search-button::after {
+  position: absolute;
+  top: -10px;
+  width: 3rem;
+  height: 5.6rem;
+  content: '';
+  background: linear-gradient(to right,var(--white),var(--white-opacity) 36%,var(--black-opacity));
+}
+
+.c4 .search-input {
+  display: inline-block;
+  display: none;
+  width: 100%;
+  padding: 0 1rem 0 0;
+  margin: 0;
+  font-size: 1.8rem;
+  color: var(--fiord);
+  vertical-align: middle;
+  background: transparent;
+  border: none;
+  outline: none;
+  caret-color: var(--fiord);
+}
+
+.c4 .search-input::-webkit-search-decoration,
+.c4 .search-input::-webkit-search-cancel-button,
+.c4 .search-input::-webkit-search-results-button,
+.c4 .search-input::-webkit-search-results-decoration {
+  display: none;
+}
+
+.c4 .search-input:placeholder {
+  font-size: 1.8rem;
+  color: rgba(89,104,124,0.8);
+}
+
+.c4 .close-button {
+  padding: 0;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  opacity: 1;
+  -webkit-animation-name: fadeInOpacity;
+  animation-name: fadeInOpacity;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-timing-function: ease-in;
+  animation-timing-function: ease-in;
+}
+
+.c6 {
+  --standard-box-shadow: 0 1px 4px 0 var(--black-transparent-8),0 4px 6px 0 rgba(92,92,92,0.12);
+  --white-on-blue-hover-box-shadow: 0 8px 12px 0 rgba(233,253,216,0.02),0 3px 8px 0 rgba(92,92,92,0.12);
+  --watermelon-on-white-box-shadow: 0 1px 4px 0 rgba(0,0,0,0.08),0 4px 6px 0 rgba(92,92,92,0.12);
+  --watermelon-on-white-hover-box-shadow: 0 8px 12px 0 rgba(233,253,216,0.02), 0 3px 8px 0 var(--black-transparent-12);
+  --white-on-watermelon-box-shadow: 0 1px 4px 0 rgba(0,0,0,0.08),0 4px 6px 0 rgba(92,92,92,0.12);
+  --white-on-watermelon-hover-box-shadow: 0 8px 12px 0 rgba(233,253,216,0.02),0 3px 8px 0 rgba(0,0,0,0.12);
+  display: inline-block;
+  width: auto;
+  max-width: 28.8rem;
+  border-radius: 4px;
+  box-shadow: var(--standard-box-shadow);
+  font-weight: bold;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  outline-style: none;
+}
+
+.c6.medium {
+  font-size: 1.3rem;
+  line-height: 1.23;
+  -webkit-letter-spacing: 0.6px;
+  -moz-letter-spacing: 0.6px;
+  -ms-letter-spacing: 0.6px;
+  letter-spacing: 0.6px;
+  padding: 1.2rem 2rem;
+}
+
+.c6.large {
+  font-size: 1.5rem;
+  line-height: normal;
+  -webkit-letter-spacing: 0.9px;
+  -moz-letter-spacing: 0.9px;
+  -ms-letter-spacing: 0.9px;
+  letter-spacing: 0.9px;
+  padding: 1.5rem 2rem;
+}
+
+.c6.white-on-blue {
+  color: var(--white);
+  background-color: var(--dodger-blue);
+}
+
+.c6.white-on-blue:hover,
+.c6.white-on-blue::selection {
+  background-color: var(--dodger-blue-light);
+  box-shadow: var(--white-on-blue-hover-box-shadow);
+}
+
+.c6.white-on-watermelon {
+  color: var(--white);
+  background-color: var(--wild-watermelon);
+  box-shadow: var(--white-on-watermelon-box-shadow);
+}
+
+.c6.white-on-watermelon:hover,
+.c6.white-on-watermelon::selection {
+  background-color: var(--wild-watermelon-light);
+  box-shadow: var(--white-on-watermelon-hover-box-shadow);
+}
+
+.c6.watermelon-on-white {
+  color: var(--wild-watermelon);
+  background-color: var(--white);
+  box-shadow: var(--watermelon-on-white-box-shadow);
+}
+
+.c6.watermelon-on-white:hover,
+.c6.watermelon-on-white::selection {
+  opacity: 0.95;
+  box-shadow: var(--watermelon-on-white-hover-box-shadow);
+}
+
+@media (min-width:768px) {
+  .c1 {
+    width: 750px;
+  }
+}
+
+@media (min-width:992px) {
+  .c1 {
+    width: 970px;
+  }
+}
+
+@media (min-width:1200px) {
+  .c1 {
+    width: 1170px;
+  }
+}
+
+@media (min-width:992px) {
+  .c0 {
+    display: block;
+  }
+}
+
+@media (min-width:992px) {
+  .c7 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+@media not all and (min-resolution:0.001dpcm) {
+
+}
+
+<div>
+  <div
+    className="c0"
+  >
+    <div
+      className="c1 c2"
+    >
+      <div
+        className="content"
+      >
+        <div
+          className="c3"
+        />
+        <div
+          className="c4"
+        >
+          <input
+            className="search-input"
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            placeholder="Search here"
+            type="search"
+            value="Quantic search"
+          />
+        </div>
+      </div>
+      <div
+        className="c5"
+      >
+        <a
+          className="log-in"
+          href=""
+        >
+          Log In
+        </a>
+        <a
+          className="c6 white-on-watermelon medium"
+          href=""
+        >
+          
+        </a>
+      </div>
+    </div>
+  </div>
+  <div
+    className="c7"
+  >
+    <div
+      className="c1 c8"
+    >
+      <div
+        className="content"
+      >
+        <div
+          className="c3"
+        />
+        <div
+          className="c4"
+        >
+          <input
+            className="search-input"
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            placeholder="Search here"
+            type="search"
+            value="Quantic search"
+          />
+        </div>
+      </div>
+      <span
+        className="line"
+      />
+    </div>
+  </div>
+</div>
+`;

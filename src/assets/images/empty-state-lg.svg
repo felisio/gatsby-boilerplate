@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="318" height="310" viewBox="0 0 318 310">
+    <defs>
+        <filter id="czhl3nifda" width="130.3%" height="128.3%" x="-15.2%" y="-10.1%" filterUnits="objectBoundingBox">
+            <feOffset dy="10" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="10"/>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.235294118 0 0 0 0 0.298039216 0 0 0 0 0.37254902 0 0 0 0.03 0"/>
+        </filter>
+        <path id="vx9y502bjb" d="M0 3c0-1.657 1.342-3 3.005-3h224.99C229.655 0 231 1.344 231 3v239.995c0 2.212-1.792 4.005-4.01 4.005H4.01C1.794 247 0 245.206 0 242.995V3.001z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <path fill="#F8F9FA" stroke="#ECEFF2" d="M262.505 32.147c.692 0 1.319.28 1.772.733.453.452.734 1.077.734 1.768h0v239.994c0 .968-.393 1.845-1.028 2.479-.635.634-1.512 1.026-2.482 1.026h0-222.98c-.97 0-1.847-.393-2.482-1.027-.635-.634-1.028-1.51-1.028-2.478h0V34.648c0-.691.28-1.317.733-1.77.453-.452 1.079-.731 1.772-.731h0z" transform="rotate(-18 150.01 155.147)"/>
+            <g transform="translate(40 22)">
+                <g>
+                    <use fill="#000" filter="url(#czhl3nifda)" xlink:href="#vx9y502bjb"/>
+                    <path fill="#FFF" stroke="#ECEFF2" stroke-linejoin="square" d="M227.995.5c.692 0 1.318.28 1.771.733.454.452.734 1.077.734 1.768h0v239.994c0 .968-.392 1.845-1.027 2.479-.635.634-1.512 1.026-2.482 1.026h0H4.009c-.969 0-1.846-.393-2.481-1.027C.893 244.84.5 243.963.5 242.995h0V3.001c0-.691.28-1.317.733-1.77C1.686.78 2.313.5 3.005.5h0z"/>
+                </g>
+                <path fill="#F9FAFB" d="M3 1h225c1.105 0 2 .895 2 2v120H1V3c0-1.105.895-2 2-2z"/>
+                <rect width="36.691" height="5.151" x="13" y="137" fill="#E6EAEF" rx="2.576"/>
+                <rect width="65.657" height="11.59" x="13" y="154.385" fill="#9BA9BB" rx="5.795"/>
+                <rect width="183.453" height="10.303" x="13" y="177.99" fill="#E6EAEF" rx="5.151"/>
+                <rect width="79.174" height="10.303" x="13" y="219.61" fill="#E6EAEF" rx="5.151"/>
+                <rect width="92.692" height="10.303" x="13" y="198.8" fill="#E6EAEF" rx="5.151"/>
+                <rect width="62.438" height="10.303" x="108.267" y="198.8" fill="#E6EAEF" rx="5.151"/>
+                <rect width="126.164" height="11.59" x="83.806" y="154.385" fill="#9BA9BB" rx="5.795"/>
+                <rect width="53.427" height="5.151" x="52.265" y="137" fill="#E6EAEF" rx="2.576"/>
+            </g>
+        </g>
+    </g>
+</svg>
