@@ -1,33 +1,26 @@
 name: Release
-
+​
 on:
   push:
     branches:
       - main
-
+​
 jobs:
   production:
     runs-on: ubuntu-latest
+​
     steps:
       - uses: actions/checkout@v2
-      - name: Use Node.js 12.x
+​
+      - name: Use Node.js
         uses: actions/setup-node@v1
         with:
           node-version: "12.x"
-      - name: Cache node modules
-        uses: actions/cache@v2
-        env:
-          cache-name: cache-node-modules
-        with:
-          path: ~/.npm
-          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('**/package-lock.json') }}
-          restore-keys: |
-            ${{ runner.os }}-build-${{ env.cache-name }}-
-            ${{ runner.os }}-build-
-            ${{ runner.os }}-
+​
       - name: Install dependencies
-        run: npm install
+        uses: bahmutov/npm-install@v1
+​
       - name: Release a new version
-        run: npm run release
+        run: yarn release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
