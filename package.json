@@ -111,10 +111,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/quanticedu/quantic-gatsby-marketing"
+    "url": "https://github.com/felisio/gatsby-boilerplate"
   },
   "bugs": {
-    "url": "https://github.com/quanticedu/quantic-gatsby-marketing/issues"
+    "url": "https://github.com/felisio/gatsby-boilerplate/issues"
   },
   "config": {
     "commitizen": {
