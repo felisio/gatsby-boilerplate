@@ -1,5 +1,5 @@
 {
-  "name": "quantic-gatsby-marketing",
+  "name": "quantic-gatsby-boilerplate",
   "private": true,
   "description": "Quantic.edu | Gatsby 👨🏻‍🏫",
   "version": "0.1.0",
@@ -120,5 +120,10 @@
     "commitizen": {
       "path": "cz-conventional-changelog"
     }
+  },
+  "release": {
+    "branches": [
+      "main"
+    ]
   }
 }
