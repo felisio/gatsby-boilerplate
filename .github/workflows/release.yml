@@ -8,18 +8,14 @@ on:
 jobs:
   production:
     runs-on: ubuntu-latest
-​
-    steps:
+​    steps:
       - uses: actions/checkout@v2
-​
-      - name: Use Node.js
+​      - name: Use Node.js 12.x
         uses: actions/setup-node@v1
         with:
-          node-version: "12.x"
-​
+          node-version: "12.x" 
       - name: Install dependencies
         uses: bahmutov/npm-install@v1
-​
       - name: Release a new version
         run: yarn release
         env:
