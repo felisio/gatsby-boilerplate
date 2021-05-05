@@ -1,0 +1,959 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should verify Navbar Component snapshot 1`] = `
+.c0 {
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.c0.stick {
+  position: fixed;
+  background-color: var(--white);
+  box-shadow: 0 8px 20px 0 var(--black-transparent-8);
+  -webkit-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
+}
+
+.c0.is-open {
+  position: fixed;
+  background-color: var(--white);
+}
+
+.c1 {
+  display: initial;
+}
+
+.c1 .header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 2.1rem 1.5rem;
+}
+
+.c1 .content {
+  display: none;
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  -webkit-animation-name: fadeInVisibility;
+  animation-name: fadeInVisibility;
+  -webkit-animation-duration: 0.5s;
+  animation-duration: 0.5s;
+  -webkit-animation-timing-function: ease-in;
+  animation-timing-function: ease-in;
+}
+
+.c1 .content .button {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0.2rem 0 0.5rem 0;
+}
+
+.c1 .content .menu {
+  height: calc(100vh - 123px);
+  overflow: auto;
+}
+
+.c1 .content .navigation {
+  padding: 2.4rem 3rem 0.2rem 3rem;
+}
+
+.c1 .content .navigation h2 {
+  padding: 0;
+  margin: 0 0 0.3rem 0;
+  font-size: 1.5rem;
+  font-weight: normal;
+  font-stretch: normal;
+  line-height: normal;
+  color: var(--gull-grey);
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+}
+
+.c1 .content .navigation ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.c1 .content .navigation ul li {
+  padding-top: 0.5rem;
+  padding-bottom: 0.8rem;
+}
+
+.c1 .content .navigation ul li a {
+  font-size: 1.7rem;
+  color: var(--shuttle-grey);
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  outline: none;
+  -webkit-transition: 0.2s ease;
+  transition: 0.2s ease;
+}
+
+.c1 .content .navigation ul li a:hover {
+  color: var(--fiord);
+}
+
+.c10 {
+  display: none;
+  grid-template-columns: 0.64fr auto 2fr auto;
+  gap: 3rem;
+  padding: 2.6rem 0 1.7rem;
+}
+
+.c10 div {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+}
+
+.c10 .menu-desktop {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.c10 .menu-desktop > li + li {
+  margin-left: 2.8rem;
+}
+
+.c3 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.c9 {
+  padding-bottom: 8rem;
+  visibility: visible;
+}
+
+.c9 a {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: var(--wild-watermelon);
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  -webkit-letter-spacing: 1.02px;
+  -moz-letter-spacing: 1.02px;
+  -ms-letter-spacing: 1.02px;
+  letter-spacing: 1.02px;
+  outline: none;
+}
+
+.c9 a:hover,
+.c9 a::selection {
+  color: var(--wild-watermelon-light);
+}
+
+.c9 a img {
+  margin-left: 0.6rem;
+}
+
+.c8 {
+  width: 100%;
+  height: 0.1rem;
+  margin: 2.4rem 0 1.9rem 0;
+  background-color: var(--athens-grey);
+}
+
+.c2 {
+  box-sizing: border-box;
+  padding-right: 1.6rem;
+  padding-left: 1.6rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.c2::after,
+.c2::before {
+  display: table;
+  content: ' ';
+}
+
+.c2::after {
+  clear: both;
+}
+
+.c7 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c5 {
+  --standard-box-shadow: 0 1px 4px 0 var(--black-transparent-8),0 4px 6px 0 rgba(92,92,92,0.12);
+  --white-on-blue-hover-box-shadow: 0 8px 12px 0 rgba(233,253,216,0.02),0 3px 8px 0 rgba(92,92,92,0.12);
+  --watermelon-on-white-box-shadow: 0 1px 4px 0 rgba(0,0,0,0.08),0 4px 6px 0 rgba(92,92,92,0.12);
+  --watermelon-on-white-hover-box-shadow: 0 8px 12px 0 rgba(233,253,216,0.02), 0 3px 8px 0 var(--black-transparent-12);
+  --white-on-watermelon-box-shadow: 0 1px 4px 0 rgba(0,0,0,0.08),0 4px 6px 0 rgba(92,92,92,0.12);
+  --white-on-watermelon-hover-box-shadow: 0 8px 12px 0 rgba(233,253,216,0.02),0 3px 8px 0 rgba(0,0,0,0.12);
+  display: inline-block;
+  width: auto;
+  max-width: 28.8rem;
+  border-radius: 4px;
+  box-shadow: var(--standard-box-shadow);
+  font-weight: bold;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  outline-style: none;
+}
+
+.c5.medium {
+  font-size: 1.3rem;
+  line-height: 1.23;
+  -webkit-letter-spacing: 0.6px;
+  -moz-letter-spacing: 0.6px;
+  -ms-letter-spacing: 0.6px;
+  letter-spacing: 0.6px;
+  padding: 1.2rem 2rem;
+}
+
+.c5.large {
+  font-size: 1.5rem;
+  line-height: normal;
+  -webkit-letter-spacing: 0.9px;
+  -moz-letter-spacing: 0.9px;
+  -ms-letter-spacing: 0.9px;
+  letter-spacing: 0.9px;
+  padding: 1.5rem 2rem;
+}
+
+.c5.white-on-blue {
+  color: var(--white);
+  background-color: var(--dodger-blue);
+}
+
+.c5.white-on-blue:hover,
+.c5.white-on-blue::selection {
+  background-color: var(--dodger-blue-light);
+  box-shadow: var(--white-on-blue-hover-box-shadow);
+}
+
+.c5.white-on-watermelon {
+  color: var(--white);
+  background-color: var(--wild-watermelon);
+  box-shadow: var(--white-on-watermelon-box-shadow);
+}
+
+.c5.white-on-watermelon:hover,
+.c5.white-on-watermelon::selection {
+  background-color: var(--wild-watermelon-light);
+  box-shadow: var(--white-on-watermelon-hover-box-shadow);
+}
+
+.c5.watermelon-on-white {
+  color: var(--wild-watermelon);
+  background-color: var(--white);
+  box-shadow: var(--watermelon-on-white-box-shadow);
+}
+
+.c5.watermelon-on-white:hover,
+.c5.watermelon-on-white::selection {
+  opacity: 0.95;
+  box-shadow: var(--watermelon-on-white-hover-box-shadow);
+}
+
+.c4.icon-12 {
+  width: 1.2rem;
+  height: 1.2rem;
+}
+
+.c4.icon-16 {
+  width: 1.6rem;
+  height: 1.6rem;
+}
+
+.c4.icon-18 {
+  width: 1.8rem;
+  height: 1.8rem;
+}
+
+.c4.icon-24 {
+  width: 2.4rem;
+  height: 2.4rem;
+}
+
+.c4.icon-32 {
+  width: 3.2rem;
+  height: 3.2rem;
+}
+
+.c4.icon-128 {
+  width: 12.8rem;
+  height: 3.8rem;
+}
+
+.c6 {
+  padding: 0;
+  margin: 0;
+}
+
+.c11 {
+  position: relative;
+  display: block;
+}
+
+.c12 button {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  font-family: 'ApercuMediumPro';
+  font-size: 1.6rem;
+  line-height: 1.25;
+  color: var(--white);
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  -webkit-transition: 0.24s opacity ease-in-out;
+  transition: 0.24s opacity ease-in-out;
+}
+
+.c12 button:focus {
+  border: none;
+  outline: none;
+}
+
+.c12 button:hover {
+  opacity: 0.5;
+}
+
+.c12 button.dark {
+  color: var(--lynch);
+}
+
+.c12 button.dark:hover {
+  color: var(--fiord);
+  opacity: 1;
+}
+
+.c12 button.category {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  padding: 0.7rem 1.2rem 0.8rem;
+  font-size: 1.8rem;
+  font-weight: normal;
+  line-height: normal;
+  color: var(--lynch);
+}
+
+.c12 button.category.active,
+.c12 button.category.active:hover,
+.c12 button.category.active:focus,
+.c12 button.category.active:focus:hover {
+  font-weight: 500;
+  color: var(--white);
+  background-color: var(--lynch);
+  border-radius: 4px;
+  box-shadow: 2px 6px 20px 0 var(--black-transparent-5);
+}
+
+.c12 button.category:focus,
+.c12 button.category:focus:hover,
+.c12 button.category:hover {
+  color: var(--shuttle-grey);
+  background-color: var(--athens-grey);
+  border-radius: 4px;
+  opacity: 1;
+}
+
+.c12 button img {
+  position: relative;
+  top: 1.2px;
+  left: 4px;
+  opacity: 0.5;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+
+.c13 {
+  position: absolute;
+  top: 100%;
+  left: -24px;
+  width: 20.7rem;
+  padding: 1.2rem 0;
+  margin-top: 1.5rem;
+  margin-left: 0.5rem;
+  pointer-events: none;
+  background-color: var(--white);
+  border: solid 1px var(--athens-grey);
+  border-radius: 4px;
+  box-shadow: 0 0 16px 0 var(--black-transparent-12);
+  opacity: 0;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+  -webkit-transform: translateY(-8px);
+  -ms-transform: translateY(-8px);
+  transform: translateY(-8px);
+}
+
+.c13 .arrow {
+  position: absolute;
+  top: -10px;
+  left: calc(100% - 168px);
+  display: block;
+  width: 19px;
+  height: 20px;
+  -webkit-clip-path: polygon(0% 0%,100% 100%,0% 100%);
+  clip-path: polygon(0% 0%,100% 100%,0% 100%);
+  background-color: inherit;
+  border: inherit;
+  border-radius: 0 0 0 0.4em;
+  -webkit-transform: rotate(134deg);
+  -ms-transform: rotate(134deg);
+  transform: rotate(134deg);
+}
+
+.c13 ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.c13 ul li a {
+  display: block;
+  padding: 0 2.2rem;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: normal;
+  font-stretch: normal;
+  line-height: 30px;
+  color: var(--shuttle-grey);
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+}
+
+.c13 ul li a:hover {
+  color: var(--fiord);
+  background-color: transparent;
+}
+
+.c13 ul li.active a {
+  color: var(--wild-watermelon);
+}
+
+.c13 ul li.active a:hover {
+  color: var(--wild-watermelon);
+}
+
+.c13 .divider {
+  width: 100%;
+  height: 1px;
+  margin: 1.1rem 0 1rem;
+  background-color: var(--athens-grey);
+}
+
+@media (min-width:992px) {
+  .c1 {
+    display: none;
+  }
+}
+
+@media (min-width:992px) {
+  .c10 {
+    display: grid;
+  }
+}
+
+@media (min-width:992px) {
+  .c9 {
+    justify-self: end;
+    padding-right: 0.3rem;
+    padding-bottom: 0;
+  }
+}
+
+@media (min-width:992px) {
+  .c9 a {
+    font-size: 1.3rem;
+    line-height: 1.23;
+    color: var(--white);
+    -webkit-letter-spacing: 0.6px;
+    -moz-letter-spacing: 0.6px;
+    -ms-letter-spacing: 0.6px;
+    letter-spacing: 0.6px;
+    -webkit-transition: color 0.5s ease-in;
+    transition: color 0.5s ease-in;
+  }
+}
+
+@media (min-width:992px) {
+  .c9 a:hover,
+  .c9 a::selection {
+    color: var(--white);
+    opacity: 0.5;
+  }
+}
+
+@media (min-width:768px) {
+  .c2 {
+    width: 750px;
+  }
+}
+
+@media (min-width:992px) {
+  .c2 {
+    width: 970px;
+  }
+}
+
+@media (min-width:1200px) {
+  .c2 {
+    width: 1170px;
+  }
+}
+
+<div>
+  <div
+    className="c0  "
+  >
+    <div
+      className="c1"
+    >
+      <div
+        className="c2"
+      >
+        <div
+          className="header"
+        >
+          <div>
+            <a
+              href="/"
+            >
+              <img
+                alt="Quantic"
+                src="test-file-stub"
+              />
+            </a>
+          </div>
+          <div>
+            <a
+              className="c3"
+              onClick={[Function]}
+            >
+              <img
+                alt="menu"
+                className="c4 icon-24"
+                src="test-file-stub"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+      <section
+        className="content"
+      >
+        <div
+          className="button"
+        >
+          <a
+            className="c5 white-on-watermelon large"
+            href="/link-button"
+          >
+            SIGN UP - IT’S FREE
+          </a>
+        </div>
+        <div
+          className="menu"
+        >
+          <nav
+            className="navigation"
+          >
+            <div>
+              <h2>
+                For Students
+              </h2>
+              <ul>
+                <li
+                  className="c6"
+                >
+                  <a
+                    className="c7"
+                    href="https://quantic.edu/mba"
+                    target="_blank"
+                  >
+                    The Free MBA
+                  </a>
+                </li>
+                <li
+                  className="c6"
+                >
+                  <a
+                    className="c7"
+                    href="https://quantic.edu/executive-mba"
+                    target="_blank"
+                  >
+                    The Executive MBA
+                  </a>
+                </li>
+                <li
+                  className="c6"
+                >
+                  <a
+                    className="c7"
+                    href="https://quantic.edu/programs"
+                    target="_blank"
+                  >
+                    All Programs
+                  </a>
+                </li>
+              </ul>
+              <div
+                className="c8"
+              />
+              <ul>
+                <li
+                  className="c6"
+                >
+                  <a
+                    className="c7"
+                    href="https://quantic.edu/student-experience"
+                    target="_blank"
+                  >
+                    Student Experience
+                  </a>
+                </li>
+                <li
+                  className="c6"
+                >
+                  <a
+                    className="c7"
+                    href="https://quantic.edu/tuition-assistance/students"
+                    target="_blank"
+                  >
+                    Tuition Reimbursement
+                  </a>
+                </li>
+                <li
+                  className="c6"
+                >
+                  <a
+                    className="c7"
+                    href="https://quantic.edu/candidates/join-career-network"
+                    target="_blank"
+                  >
+                    Career Network
+                  </a>
+                </li>
+              </ul>
+              <div
+                className="c8"
+              />
+            </div>
+            <div>
+              <h2>
+                For Employers
+              </h2>
+              <ul>
+                <li
+                  className="c6"
+                >
+                  <a
+                    className="c7"
+                    href="https://quantic.edu/mba"
+                    target="_blank"
+                  >
+                    Hire our Students
+                  </a>
+                </li>
+                <li
+                  className="c6"
+                >
+                  <a
+                    className="c7"
+                    href="https://quantic.edu/executive-mba"
+                    target="_blank"
+                  >
+                    Tuition Reimbursement
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+          <div
+            className="c9"
+          >
+            <div
+              className="c8"
+            />
+            <div>
+              <a
+                href="/link-login"
+              >
+                <span>
+                  Log In
+                </span>
+                <img
+                  alt="rightArrowPink"
+                  className="c4 icon-16"
+                  src="test-file-stub"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div
+      className="c2"
+    >
+      <div
+        className="c10"
+      >
+        <div>
+          <a
+            href="/"
+          >
+            <img
+              alt="Quantic"
+              src="test-file-stub"
+            />
+          </a>
+        </div>
+        <div>
+          <ul
+            className="menu-desktop"
+          >
+            <li>
+              <div
+                className="c11"
+              >
+                <div
+                  className="c12"
+                >
+                  <button
+                    className="
+                    
+                    
+                    "
+                    onClick={[Function]}
+                    type="button"
+                  >
+                    For Students
+                    <img
+                      alt="downChevronWhite"
+                      className="c4 icon-16"
+                      src="test-file-stub"
+                    />
+                  </button>
+                </div>
+                <div
+                  className="c13"
+                >
+                  <span
+                    className="arrow"
+                  />
+                  <ul>
+                    <li
+                      className="c6"
+                    >
+                      <a
+                        className="c7"
+                        href="https://quantic.edu/mba"
+                        target="_blank"
+                      >
+                        The Free MBA
+                      </a>
+                    </li>
+                    <li
+                      className="c6"
+                    >
+                      <a
+                        className="c7"
+                        href="https://quantic.edu/executive-mba"
+                        target="_blank"
+                      >
+                        The Executive MBA
+                      </a>
+                    </li>
+                    <li
+                      className="c6"
+                    >
+                      <a
+                        className="c7"
+                        href="https://quantic.edu/programs"
+                        target="_blank"
+                      >
+                        All Programs
+                      </a>
+                    </li>
+                  </ul>
+                  <div
+                    className="divider"
+                  />
+                  <ul>
+                    <li
+                      className="c6"
+                    >
+                      <a
+                        className="c7"
+                        href="https://quantic.edu/student-experience"
+                        target="_blank"
+                      >
+                        Student Experience
+                      </a>
+                    </li>
+                    <li
+                      className="c6"
+                    >
+                      <a
+                        className="c7"
+                        href="https://quantic.edu/tuition-assistance/students"
+                        target="_blank"
+                      >
+                        Tuition Reimbursement
+                      </a>
+                    </li>
+                    <li
+                      className="c6"
+                    >
+                      <a
+                        className="c7"
+                        href="https://quantic.edu/candidates/join-career-network"
+                        target="_blank"
+                      >
+                        Career Network
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div
+                className="c11"
+              >
+                <div
+                  className="c12"
+                >
+                  <button
+                    className="
+                    
+                    
+                    "
+                    onClick={[Function]}
+                    type="button"
+                  >
+                    For Employers
+                    <img
+                      alt="downChevronWhite"
+                      className="c4 icon-16"
+                      src="test-file-stub"
+                    />
+                  </button>
+                </div>
+                <div
+                  className="c13"
+                >
+                  <span
+                    className="arrow"
+                  />
+                  <ul>
+                    <li
+                      className="c6"
+                    >
+                      <a
+                        className="c7"
+                        href="https://quantic.edu/mba"
+                        target="_blank"
+                      >
+                        Hire our Students
+                      </a>
+                    </li>
+                    <li
+                      className="c6"
+                    >
+                      <a
+                        className="c7"
+                        href="https://quantic.edu/executive-mba"
+                        target="_blank"
+                      >
+                        Tuition Reimbursement
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div
+          className="c9"
+        >
+          <a
+            href="/link-login"
+          >
+            <span>
+              Log In
+            </span>
+          </a>
+        </div>
+        <div>
+          <a
+            className="c5 watermelon-on-white medium"
+            href="/link-button"
+          >
+            SIGN UP - IT’S FREE
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

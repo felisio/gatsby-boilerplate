@@ -1,0 +1,1371 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should verify CardsSection Component props 1`] = `
+.c0 {
+  display: block;
+  padding: 7rem 0 10rem 0;
+}
+
+.c1 .strapline {
+  padding: 0;
+  margin: 0;
+  font-size: 1.4rem;
+  font-weight: normal;
+  line-height: 1.57;
+  color: var(--lynch);
+  text-align: center;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+}
+
+.c1 .header-title {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c1 .header-title .title {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  max-width: 200px;
+}
+
+.c1 .header-title .icon {
+  margin-right: 1.6rem;
+}
+
+.c1 h2 {
+  margin: 0;
+  font-size: 3.2rem;
+  font-weight: normal;
+  line-height: 1.31;
+  color: var(--fiord);
+  text-align: center;
+  -webkit-letter-spacing: 0.3px;
+  -moz-letter-spacing: 0.3px;
+  -ms-letter-spacing: 0.3px;
+  letter-spacing: 0.3px;
+  overflow-wrap: break-word;
+}
+
+.c1 h2.bold {
+  font-weight: 500;
+  line-height: 1.25;
+  -webkit-letter-spacing: 0.2px;
+  -moz-letter-spacing: 0.2px;
+  -ms-letter-spacing: 0.2px;
+  letter-spacing: 0.2px;
+}
+
+.c1 .gatsby-image-wrapper {
+  z-index: -1;
+  -webkit-flex: 0 0 4rem;
+  -ms-flex: 0 0 4rem;
+  flex: 0 0 4rem;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.c2 {
+  --gap: 2rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  gap: var(--gap);
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+  padding-top: 3rem;
+}
+
+.c3 {
+  display: inline-block;
+  width: 28.8rem;
+  height: 31.4rem;
+  overflow: hidden;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: var(--white);
+  border: solid 1px var(--athens-grey);
+  border-radius: 4px;
+  outline: none;
+  box-shadow: 0 10px 20px 0 var(--black-transparent-5);
+}
+
+.c3 .thumbnail {
+  display: block;
+  width: 100%;
+  height: 15.3rem;
+  overflow: hidden;
+}
+
+.c3 .thumbnail .gatsby-image-wrapper,
+.c3 .thumbnail img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.c3 .content-wrapper {
+  width: 100;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 1.1rem 1.5rem 2rem;
+  margin-top: 0;
+}
+
+.c3 .content-wrapper .meta {
+  display: inline;
+  vertical-align: middle;
+}
+
+.c3 .content-wrapper .meta .category {
+  font-family: 'ApercuBoldPro';
+  font-size: 1.2rem;
+  line-height: 1.5;
+  color: var(--wild-watermelon);
+  -webkit-letter-spacing: 0.4px;
+  -moz-letter-spacing: 0.4px;
+  -ms-letter-spacing: 0.4px;
+  letter-spacing: 0.4px;
+}
+
+.c3 .content-wrapper .meta .dot {
+  margin-right: 0.4rem;
+  margin-left: 0.4rem;
+}
+
+.c3 .content-wrapper .meta .date,
+.c3 .content-wrapper .meta .dot {
+  font-size: 1.4rem;
+  line-height: 1.43;
+  color: var(--shuttle-grey);
+  opacity: 0.8;
+}
+
+.c3 .content-wrapper .main {
+  margin-top: 0.5rem;
+}
+
+.c3 .content-wrapper .main .title {
+  padding: 0;
+  margin: 0 0 0.6rem;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.3;
+  color: var(--fiord);
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c3 .content-wrapper .main .description {
+  padding: 0;
+  margin: 0;
+  font-size: 1.6rem;
+  line-height: 1.38;
+  color: var(--shuttle-grey);
+}
+
+.c3 .content-wrapper .main .description p {
+  padding: 0;
+  margin: 0;
+}
+
+.c3:active,
+.c3:hover {
+  box-shadow: 0 10px 20px 0 var(--black-transparent-14);
+}
+
+.c3:active .content-wrapper .main .title,
+.c3:hover .content-wrapper .main .title {
+  color: var(--wild-watermelon);
+}
+
+@media (min-width:768px) {
+  .c1 .header-title .title {
+    max-width: 100%;
+  }
+}
+
+@media not all and (min-resolution:0.001dpcm) {
+
+}
+
+@media (min-width:992px) {
+  .c2 {
+    padding-top: 5rem;
+    --gap: 3rem;
+  }
+}
+
+@media (max-width:28.8rem) {
+  .c3 {
+    width: 100%;
+  }
+}
+
+@supports (-webkit-line-clamp:2) {
+  .c3 .content-wrapper .main .title {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+}
+
+@supports (-webkit-line-clamp:2) {
+  .c3 .content-wrapper .main .description {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+}
+
+@media (min-width:768px) {
+  .c3 {
+    width: 35.9rem;
+    height: 38.4rem;
+  }
+
+  .c3 .thumbnail {
+    height: 19rem;
+  }
+
+  .c3 .content-wrapper {
+    padding: 1.6rem 1.9rem 2.5rem;
+  }
+
+  .c3 .content-wrapper .main {
+    margin-top: 0.7rem;
+  }
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <div
+      className="header-title"
+    >
+      <div
+        className="title"
+      >
+        <h2
+          className=""
+        >
+          Related Posts
+        </h2>
+      </div>
+    </div>
+  </div>
+  <div
+    className="c2"
+  >
+    <div
+      className="c3"
+    >
+      <a
+        className="thumbnail"
+        href=""
+      >
+        <div
+          className=" gatsby-image-wrapper"
+          style={
+            Object {
+              "maxHeight": null,
+              "maxWidth": null,
+              "overflow": "hidden",
+              "position": "relative",
+            }
+          }
+        >
+          <div
+            aria-hidden={true}
+            style={
+              Object {
+                "paddingBottom": "100%",
+                "width": "100%",
+              }
+            }
+          />
+          <picture>
+            <source
+              sizes="(max-width: 600px) 100vw, 600px"
+              srcSet="test-file-stub"
+            />
+            <img
+              alt="AltText"
+              loading="lazy"
+              onLoad={[Function]}
+              sizes="(max-width: 600px) 100vw, 600px"
+              src="test-file-stub"
+              srcSet="test-file-stub"
+              style={
+                Object {
+                  "height": "100%",
+                  "left": 0,
+                  "objectFit": "cover",
+                  "objectPosition": "center",
+                  "opacity": 0,
+                  "position": "absolute",
+                  "top": 0,
+                  "transition": "opacity 500ms",
+                  "width": "100%",
+                }
+              }
+            />
+          </picture>
+          <noscript
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "<picture><source srcset=\\"test-file-stub\\" sizes=\\"(max-width: 600px) 100vw, 600px\\" /><img loading=\\"lazy\\" sizes=\\"(max-width: 600px) 100vw, 600px\\" srcset=\\"test-file-stub\\" src=\\"test-file-stub\\" alt=\\"AltText\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+              }
+            }
+          />
+        </div>
+      </a>
+      <div
+        className="content-wrapper"
+      >
+        <div
+          className="meta"
+        >
+          <span
+            className="category"
+            data-testid="category"
+          >
+            CATEGORY
+          </span>
+          <span
+            className="dot"
+          >
+            •
+          </span>
+          <span
+            className="date"
+            data-testid="date"
+          >
+            October 30, 2020
+          </span>
+        </div>
+        <div
+          className="main"
+        >
+          <a
+            className="title"
+            data-testid="title"
+            href=""
+          >
+            This is the blog post #0
+          </a>
+          <div
+            className="description"
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "<p>This is the description for post 0. </p>",
+              }
+            }
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="c3"
+    >
+      <a
+        className="thumbnail"
+        href=""
+      >
+        <div
+          className=" gatsby-image-wrapper"
+          style={
+            Object {
+              "maxHeight": null,
+              "maxWidth": null,
+              "overflow": "hidden",
+              "position": "relative",
+            }
+          }
+        >
+          <div
+            aria-hidden={true}
+            style={
+              Object {
+                "paddingBottom": "100%",
+                "width": "100%",
+              }
+            }
+          />
+          <picture>
+            <source
+              sizes="(max-width: 600px) 100vw, 600px"
+              srcSet="test-file-stub"
+            />
+            <img
+              alt="AltText"
+              loading="lazy"
+              onLoad={[Function]}
+              sizes="(max-width: 600px) 100vw, 600px"
+              src="test-file-stub"
+              srcSet="test-file-stub"
+              style={
+                Object {
+                  "height": "100%",
+                  "left": 0,
+                  "objectFit": "cover",
+                  "objectPosition": "center",
+                  "opacity": 0,
+                  "position": "absolute",
+                  "top": 0,
+                  "transition": "opacity 500ms",
+                  "width": "100%",
+                }
+              }
+            />
+          </picture>
+          <noscript
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "<picture><source srcset=\\"test-file-stub\\" sizes=\\"(max-width: 600px) 100vw, 600px\\" /><img loading=\\"lazy\\" sizes=\\"(max-width: 600px) 100vw, 600px\\" srcset=\\"test-file-stub\\" src=\\"test-file-stub\\" alt=\\"AltText\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+              }
+            }
+          />
+        </div>
+      </a>
+      <div
+        className="content-wrapper"
+      >
+        <div
+          className="meta"
+        >
+          <span
+            className="category"
+            data-testid="category"
+          >
+            CATEGORY
+          </span>
+          <span
+            className="dot"
+          >
+            •
+          </span>
+          <span
+            className="date"
+            data-testid="date"
+          >
+            October 30, 2020
+          </span>
+        </div>
+        <div
+          className="main"
+        >
+          <a
+            className="title"
+            data-testid="title"
+            href=""
+          >
+            This is the blog post #1
+          </a>
+          <div
+            className="description"
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "<p>This is the description for post 1. This is the description for post 1. </p>",
+              }
+            }
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="c3"
+    >
+      <a
+        className="thumbnail"
+        href=""
+      >
+        <div
+          className=" gatsby-image-wrapper"
+          style={
+            Object {
+              "maxHeight": null,
+              "maxWidth": null,
+              "overflow": "hidden",
+              "position": "relative",
+            }
+          }
+        >
+          <div
+            aria-hidden={true}
+            style={
+              Object {
+                "paddingBottom": "100%",
+                "width": "100%",
+              }
+            }
+          />
+          <picture>
+            <source
+              sizes="(max-width: 600px) 100vw, 600px"
+              srcSet="test-file-stub"
+            />
+            <img
+              alt="AltText"
+              loading="lazy"
+              onLoad={[Function]}
+              sizes="(max-width: 600px) 100vw, 600px"
+              src="test-file-stub"
+              srcSet="test-file-stub"
+              style={
+                Object {
+                  "height": "100%",
+                  "left": 0,
+                  "objectFit": "cover",
+                  "objectPosition": "center",
+                  "opacity": 0,
+                  "position": "absolute",
+                  "top": 0,
+                  "transition": "opacity 500ms",
+                  "width": "100%",
+                }
+              }
+            />
+          </picture>
+          <noscript
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "<picture><source srcset=\\"test-file-stub\\" sizes=\\"(max-width: 600px) 100vw, 600px\\" /><img loading=\\"lazy\\" sizes=\\"(max-width: 600px) 100vw, 600px\\" srcset=\\"test-file-stub\\" src=\\"test-file-stub\\" alt=\\"AltText\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+              }
+            }
+          />
+        </div>
+      </a>
+      <div
+        className="content-wrapper"
+      >
+        <div
+          className="meta"
+        >
+          <span
+            className="category"
+            data-testid="category"
+          >
+            CATEGORY
+          </span>
+          <span
+            className="dot"
+          >
+            •
+          </span>
+          <span
+            className="date"
+            data-testid="date"
+          >
+            October 30, 2020
+          </span>
+        </div>
+        <div
+          className="main"
+        >
+          <a
+            className="title"
+            data-testid="title"
+            href=""
+          >
+            This is the blog post #2
+          </a>
+          <div
+            className="description"
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "<p>This is the description for post 2. This is the description for post 2. This is the description for post 2. </p>",
+              }
+            }
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="c3"
+    >
+      <a
+        className="thumbnail"
+        href=""
+      >
+        <div
+          className=" gatsby-image-wrapper"
+          style={
+            Object {
+              "maxHeight": null,
+              "maxWidth": null,
+              "overflow": "hidden",
+              "position": "relative",
+            }
+          }
+        >
+          <div
+            aria-hidden={true}
+            style={
+              Object {
+                "paddingBottom": "100%",
+                "width": "100%",
+              }
+            }
+          />
+          <picture>
+            <source
+              sizes="(max-width: 600px) 100vw, 600px"
+              srcSet="test-file-stub"
+            />
+            <img
+              alt="AltText"
+              loading="lazy"
+              onLoad={[Function]}
+              sizes="(max-width: 600px) 100vw, 600px"
+              src="test-file-stub"
+              srcSet="test-file-stub"
+              style={
+                Object {
+                  "height": "100%",
+                  "left": 0,
+                  "objectFit": "cover",
+                  "objectPosition": "center",
+                  "opacity": 0,
+                  "position": "absolute",
+                  "top": 0,
+                  "transition": "opacity 500ms",
+                  "width": "100%",
+                }
+              }
+            />
+          </picture>
+          <noscript
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "<picture><source srcset=\\"test-file-stub\\" sizes=\\"(max-width: 600px) 100vw, 600px\\" /><img loading=\\"lazy\\" sizes=\\"(max-width: 600px) 100vw, 600px\\" srcset=\\"test-file-stub\\" src=\\"test-file-stub\\" alt=\\"AltText\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+              }
+            }
+          />
+        </div>
+      </a>
+      <div
+        className="content-wrapper"
+      >
+        <div
+          className="meta"
+        >
+          <span
+            className="category"
+            data-testid="category"
+          >
+            CATEGORY
+          </span>
+          <span
+            className="dot"
+          >
+            •
+          </span>
+          <span
+            className="date"
+            data-testid="date"
+          >
+            October 30, 2020
+          </span>
+        </div>
+        <div
+          className="main"
+        >
+          <a
+            className="title"
+            data-testid="title"
+            href=""
+          >
+            This is the blog post #3
+          </a>
+          <div
+            className="description"
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "<p>This is the description for post 3. This is the description for post 3. This is the description for post 3. This is the description for post 3. </p>",
+              }
+            }
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="c3"
+    >
+      <a
+        className="thumbnail"
+        href=""
+      >
+        <div
+          className=" gatsby-image-wrapper"
+          style={
+            Object {
+              "maxHeight": null,
+              "maxWidth": null,
+              "overflow": "hidden",
+              "position": "relative",
+            }
+          }
+        >
+          <div
+            aria-hidden={true}
+            style={
+              Object {
+                "paddingBottom": "100%",
+                "width": "100%",
+              }
+            }
+          />
+          <picture>
+            <source
+              sizes="(max-width: 600px) 100vw, 600px"
+              srcSet="test-file-stub"
+            />
+            <img
+              alt="AltText"
+              loading="lazy"
+              onLoad={[Function]}
+              sizes="(max-width: 600px) 100vw, 600px"
+              src="test-file-stub"
+              srcSet="test-file-stub"
+              style={
+                Object {
+                  "height": "100%",
+                  "left": 0,
+                  "objectFit": "cover",
+                  "objectPosition": "center",
+                  "opacity": 0,
+                  "position": "absolute",
+                  "top": 0,
+                  "transition": "opacity 500ms",
+                  "width": "100%",
+                }
+              }
+            />
+          </picture>
+          <noscript
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "<picture><source srcset=\\"test-file-stub\\" sizes=\\"(max-width: 600px) 100vw, 600px\\" /><img loading=\\"lazy\\" sizes=\\"(max-width: 600px) 100vw, 600px\\" srcset=\\"test-file-stub\\" src=\\"test-file-stub\\" alt=\\"AltText\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+              }
+            }
+          />
+        </div>
+      </a>
+      <div
+        className="content-wrapper"
+      >
+        <div
+          className="meta"
+        >
+          <span
+            className="category"
+            data-testid="category"
+          >
+            CATEGORY
+          </span>
+          <span
+            className="dot"
+          >
+            •
+          </span>
+          <span
+            className="date"
+            data-testid="date"
+          >
+            October 30, 2020
+          </span>
+        </div>
+        <div
+          className="main"
+        >
+          <a
+            className="title"
+            data-testid="title"
+            href=""
+          >
+            This is the blog post #4
+          </a>
+          <div
+            className="description"
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "<p>This is the description for post 4. This is the description for post 4. This is the description for post 4. This is the description for post 4. This is the description for post 4. </p>",
+              }
+            }
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="c3"
+    >
+      <a
+        className="thumbnail"
+        href=""
+      >
+        <div
+          className=" gatsby-image-wrapper"
+          style={
+            Object {
+              "maxHeight": null,
+              "maxWidth": null,
+              "overflow": "hidden",
+              "position": "relative",
+            }
+          }
+        >
+          <div
+            aria-hidden={true}
+            style={
+              Object {
+                "paddingBottom": "100%",
+                "width": "100%",
+              }
+            }
+          />
+          <picture>
+            <source
+              sizes="(max-width: 600px) 100vw, 600px"
+              srcSet="test-file-stub"
+            />
+            <img
+              alt="AltText"
+              loading="lazy"
+              onLoad={[Function]}
+              sizes="(max-width: 600px) 100vw, 600px"
+              src="test-file-stub"
+              srcSet="test-file-stub"
+              style={
+                Object {
+                  "height": "100%",
+                  "left": 0,
+                  "objectFit": "cover",
+                  "objectPosition": "center",
+                  "opacity": 0,
+                  "position": "absolute",
+                  "top": 0,
+                  "transition": "opacity 500ms",
+                  "width": "100%",
+                }
+              }
+            />
+          </picture>
+          <noscript
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "<picture><source srcset=\\"test-file-stub\\" sizes=\\"(max-width: 600px) 100vw, 600px\\" /><img loading=\\"lazy\\" sizes=\\"(max-width: 600px) 100vw, 600px\\" srcset=\\"test-file-stub\\" src=\\"test-file-stub\\" alt=\\"AltText\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+              }
+            }
+          />
+        </div>
+      </a>
+      <div
+        className="content-wrapper"
+      >
+        <div
+          className="meta"
+        >
+          <span
+            className="category"
+            data-testid="category"
+          >
+            CATEGORY
+          </span>
+          <span
+            className="dot"
+          >
+            •
+          </span>
+          <span
+            className="date"
+            data-testid="date"
+          >
+            October 30, 2020
+          </span>
+        </div>
+        <div
+          className="main"
+        >
+          <a
+            className="title"
+            data-testid="title"
+            href=""
+          >
+            This is the blog post #5
+          </a>
+          <div
+            className="description"
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "<p>This is the description for post 5. This is the description for post 5. This is the description for post 5. This is the description for post 5. This is the description for post 5. This is the description for post 5. </p>",
+              }
+            }
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="c3"
+    >
+      <a
+        className="thumbnail"
+        href=""
+      >
+        <div
+          className=" gatsby-image-wrapper"
+          style={
+            Object {
+              "maxHeight": null,
+              "maxWidth": null,
+              "overflow": "hidden",
+              "position": "relative",
+            }
+          }
+        >
+          <div
+            aria-hidden={true}
+            style={
+              Object {
+                "paddingBottom": "100%",
+                "width": "100%",
+              }
+            }
+          />
+          <picture>
+            <source
+              sizes="(max-width: 600px) 100vw, 600px"
+              srcSet="test-file-stub"
+            />
+            <img
+              alt="AltText"
+              loading="lazy"
+              onLoad={[Function]}
+              sizes="(max-width: 600px) 100vw, 600px"
+              src="test-file-stub"
+              srcSet="test-file-stub"
+              style={
+                Object {
+                  "height": "100%",
+                  "left": 0,
+                  "objectFit": "cover",
+                  "objectPosition": "center",
+                  "opacity": 0,
+                  "position": "absolute",
+                  "top": 0,
+                  "transition": "opacity 500ms",
+                  "width": "100%",
+                }
+              }
+            />
+          </picture>
+          <noscript
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "<picture><source srcset=\\"test-file-stub\\" sizes=\\"(max-width: 600px) 100vw, 600px\\" /><img loading=\\"lazy\\" sizes=\\"(max-width: 600px) 100vw, 600px\\" srcset=\\"test-file-stub\\" src=\\"test-file-stub\\" alt=\\"AltText\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+              }
+            }
+          />
+        </div>
+      </a>
+      <div
+        className="content-wrapper"
+      >
+        <div
+          className="meta"
+        >
+          <span
+            className="category"
+            data-testid="category"
+          >
+            CATEGORY
+          </span>
+          <span
+            className="dot"
+          >
+            •
+          </span>
+          <span
+            className="date"
+            data-testid="date"
+          >
+            October 30, 2020
+          </span>
+        </div>
+        <div
+          className="main"
+        >
+          <a
+            className="title"
+            data-testid="title"
+            href=""
+          >
+            This is the blog post #6
+          </a>
+          <div
+            className="description"
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "<p>This is the description for post 6. This is the description for post 6. This is the description for post 6. This is the description for post 6. This is the description for post 6. This is the description for post 6. This is the description for post 6. </p>",
+              }
+            }
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="c3"
+    >
+      <a
+        className="thumbnail"
+        href=""
+      >
+        <div
+          className=" gatsby-image-wrapper"
+          style={
+            Object {
+              "maxHeight": null,
+              "maxWidth": null,
+              "overflow": "hidden",
+              "position": "relative",
+            }
+          }
+        >
+          <div
+            aria-hidden={true}
+            style={
+              Object {
+                "paddingBottom": "100%",
+                "width": "100%",
+              }
+            }
+          />
+          <picture>
+            <source
+              sizes="(max-width: 600px) 100vw, 600px"
+              srcSet="test-file-stub"
+            />
+            <img
+              alt="AltText"
+              loading="lazy"
+              onLoad={[Function]}
+              sizes="(max-width: 600px) 100vw, 600px"
+              src="test-file-stub"
+              srcSet="test-file-stub"
+              style={
+                Object {
+                  "height": "100%",
+                  "left": 0,
+                  "objectFit": "cover",
+                  "objectPosition": "center",
+                  "opacity": 0,
+                  "position": "absolute",
+                  "top": 0,
+                  "transition": "opacity 500ms",
+                  "width": "100%",
+                }
+              }
+            />
+          </picture>
+          <noscript
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "<picture><source srcset=\\"test-file-stub\\" sizes=\\"(max-width: 600px) 100vw, 600px\\" /><img loading=\\"lazy\\" sizes=\\"(max-width: 600px) 100vw, 600px\\" srcset=\\"test-file-stub\\" src=\\"test-file-stub\\" alt=\\"AltText\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+              }
+            }
+          />
+        </div>
+      </a>
+      <div
+        className="content-wrapper"
+      >
+        <div
+          className="meta"
+        >
+          <span
+            className="category"
+            data-testid="category"
+          >
+            CATEGORY
+          </span>
+          <span
+            className="dot"
+          >
+            •
+          </span>
+          <span
+            className="date"
+            data-testid="date"
+          >
+            October 30, 2020
+          </span>
+        </div>
+        <div
+          className="main"
+        >
+          <a
+            className="title"
+            data-testid="title"
+            href=""
+          >
+            This is the blog post #7
+          </a>
+          <div
+            className="description"
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "<p>This is the description for post 7. This is the description for post 7. This is the description for post 7. This is the description for post 7. This is the description for post 7. This is the description for post 7. This is the description for post 7. This is the description for post 7. </p>",
+              }
+            }
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="c3"
+    >
+      <a
+        className="thumbnail"
+        href=""
+      >
+        <div
+          className=" gatsby-image-wrapper"
+          style={
+            Object {
+              "maxHeight": null,
+              "maxWidth": null,
+              "overflow": "hidden",
+              "position": "relative",
+            }
+          }
+        >
+          <div
+            aria-hidden={true}
+            style={
+              Object {
+                "paddingBottom": "100%",
+                "width": "100%",
+              }
+            }
+          />
+          <picture>
+            <source
+              sizes="(max-width: 600px) 100vw, 600px"
+              srcSet="test-file-stub"
+            />
+            <img
+              alt="AltText"
+              loading="lazy"
+              onLoad={[Function]}
+              sizes="(max-width: 600px) 100vw, 600px"
+              src="test-file-stub"
+              srcSet="test-file-stub"
+              style={
+                Object {
+                  "height": "100%",
+                  "left": 0,
+                  "objectFit": "cover",
+                  "objectPosition": "center",
+                  "opacity": 0,
+                  "position": "absolute",
+                  "top": 0,
+                  "transition": "opacity 500ms",
+                  "width": "100%",
+                }
+              }
+            />
+          </picture>
+          <noscript
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "<picture><source srcset=\\"test-file-stub\\" sizes=\\"(max-width: 600px) 100vw, 600px\\" /><img loading=\\"lazy\\" sizes=\\"(max-width: 600px) 100vw, 600px\\" srcset=\\"test-file-stub\\" src=\\"test-file-stub\\" alt=\\"AltText\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+              }
+            }
+          />
+        </div>
+      </a>
+      <div
+        className="content-wrapper"
+      >
+        <div
+          className="meta"
+        >
+          <span
+            className="category"
+            data-testid="category"
+          >
+            CATEGORY
+          </span>
+          <span
+            className="dot"
+          >
+            •
+          </span>
+          <span
+            className="date"
+            data-testid="date"
+          >
+            October 30, 2020
+          </span>
+        </div>
+        <div
+          className="main"
+        >
+          <a
+            className="title"
+            data-testid="title"
+            href=""
+          >
+            This is the blog post #8
+          </a>
+          <div
+            className="description"
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "<p>This is the description for post 8. This is the description for post 8. This is the description for post 8. This is the description for post 8. This is the description for post 8. This is the description for post 8. This is the description for post 8. This is the description for post 8. This is the description for post 8. </p>",
+              }
+            }
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="c3"
+    >
+      <a
+        className="thumbnail"
+        href=""
+      >
+        <div
+          className=" gatsby-image-wrapper"
+          style={
+            Object {
+              "maxHeight": null,
+              "maxWidth": null,
+              "overflow": "hidden",
+              "position": "relative",
+            }
+          }
+        >
+          <div
+            aria-hidden={true}
+            style={
+              Object {
+                "paddingBottom": "100%",
+                "width": "100%",
+              }
+            }
+          />
+          <picture>
+            <source
+              sizes="(max-width: 600px) 100vw, 600px"
+              srcSet="test-file-stub"
+            />
+            <img
+              alt="AltText"
+              loading="lazy"
+              onLoad={[Function]}
+              sizes="(max-width: 600px) 100vw, 600px"
+              src="test-file-stub"
+              srcSet="test-file-stub"
+              style={
+                Object {
+                  "height": "100%",
+                  "left": 0,
+                  "objectFit": "cover",
+                  "objectPosition": "center",
+                  "opacity": 0,
+                  "position": "absolute",
+                  "top": 0,
+                  "transition": "opacity 500ms",
+                  "width": "100%",
+                }
+              }
+            />
+          </picture>
+          <noscript
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "<picture><source srcset=\\"test-file-stub\\" sizes=\\"(max-width: 600px) 100vw, 600px\\" /><img loading=\\"lazy\\" sizes=\\"(max-width: 600px) 100vw, 600px\\" srcset=\\"test-file-stub\\" src=\\"test-file-stub\\" alt=\\"AltText\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+              }
+            }
+          />
+        </div>
+      </a>
+      <div
+        className="content-wrapper"
+      >
+        <div
+          className="meta"
+        >
+          <span
+            className="category"
+            data-testid="category"
+          >
+            CATEGORY
+          </span>
+          <span
+            className="dot"
+          >
+            •
+          </span>
+          <span
+            className="date"
+            data-testid="date"
+          >
+            October 30, 2020
+          </span>
+        </div>
+        <div
+          className="main"
+        >
+          <a
+            className="title"
+            data-testid="title"
+            href=""
+          >
+            This is the blog post #9
+          </a>
+          <div
+            className="description"
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "<p>This is the description for post 9. This is the description for post 9. This is the description for post 9. This is the description for post 9. This is the description for post 9. This is the description for post 9. This is the description for post 9. This is the description for post 9. This is the description for post 9. This is the description for post 9. </p>",
+              }
+            }
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

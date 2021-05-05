@@ -1,0 +1,30 @@
+export function StaticSeo(pageTitle: string) {
+    return {
+        canonical: '',
+        cornerstone: '',
+        metaDesc: '',
+        focuskw: '',
+        metaKeywords: '',
+        metaRobotsNofollow: '',
+        metaRobotsNoindex: '',
+        opengraphAuthor: '',
+        opengraphDescription: '',
+        opengraphModifiedTime: '',
+        opengraphPublishedTime: '',
+        opengraphPublisher: '',
+        opengraphSiteName: '',
+        opengraphTitle: '',
+        opengraphType: '',
+        opengraphUrl: '',
+        facebookImage: '',
+        title: pageTitle,
+        twitterAccountId: '',
+        twitterSite: '',
+        twitterCreator: '',
+        twitterDescription: '',
+        twitterTitle: pageTitle,
+        twitterImage: {
+            uri: '',
+        },
+    };
+}

@@ -1,0 +1,238 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should verify BlogHeader Component snapshot 1`] = `
+.c1 {
+  position: absolute;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+  height: 189px;
+}
+
+.c1 h1 {
+  position: relative;
+  top: 1rem;
+  font-size: 3.4rem;
+  font-weight: normal;
+  font-stretch: normal;
+  line-height: 1.35;
+  color: var(--white);
+  text-align: center;
+  -webkit-letter-spacing: 0.26px;
+  -moz-letter-spacing: 0.26px;
+  -ms-letter-spacing: 0.26px;
+  letter-spacing: 0.26px;
+}
+
+.c0 {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 185px;
+  margin-top: 0;
+}
+
+.c0 .bg-right-top {
+  position: absolute;
+  top: -12px;
+  right: 0;
+  width: 129px;
+  height: 151px;
+  background-image: linear-gradient(270deg,var(--white),var(--white-transparent) 99%);
+  opacity: 0.1;
+  -webkit-transform: skewY(10.1deg);
+  -ms-transform: skewY(10.1deg);
+  transform: skewY(10.1deg);
+}
+
+.c0 .bg-right-bottom-desktop {
+  display: none;
+}
+
+.c0 .bg-left {
+  position: absolute;
+  top: -36px;
+  z-index: -1;
+  width: 100%;
+  height: 190px;
+  overflow: hidden;
+  background-image: linear-gradient( 66deg, var(--wild-watermelon) 3%, var(--pink-rose) 47%, var(--wild-watermelon) 94% );
+  -webkit-transform: skew(0deg,1.8deg);
+  -ms-transform: skew(0deg,1.8deg);
+  transform: skew(0deg,1.8deg);
+  -webkit-transform-origin: bottom left;
+  -ms-transform-origin: bottom left;
+  transform-origin: bottom left;
+}
+
+.c0 .bg-left-bottom {
+  position: absolute;
+  right: 71px;
+  bottom: 28px;
+  z-index: -1;
+  width: 100%;
+  height: 186.4px;
+  background-image: linear-gradient(to left,rgba(170,125,238,0) 8%,rgba(170,125,238,0.2) 91%);
+  -webkit-transform: skewY(-5deg);
+  -ms-transform: skewY(-5deg);
+  transform: skewY(-5deg);
+  -webkit-transform-origin: top right;
+  -ms-transform-origin: top right;
+  transform-origin: top right;
+}
+
+.c0 .bg-left-top {
+  position: absolute;
+  top: -55px;
+  width: 107px;
+  height: 119px;
+  background-image: linear-gradient(270deg,hsla(0,0%,100%,0),var(--white) 98%);
+  opacity: 0.1;
+  -webkit-transform: skewY(-18deg);
+  -ms-transform: skewY(-18deg);
+  transform: skewY(-18deg);
+  -webkit-transform-origin: top right;
+  -ms-transform-origin: top right;
+  transform-origin: top right;
+}
+
+@media (min-width:768px) {
+  .c1 {
+    height: 243px;
+  }
+}
+
+@media (min-width:768px) {
+  .c1 h1 {
+    position: relative;
+    margin: 0;
+    font-size: 4.6rem;
+    line-height: 1.17;
+    -webkit-letter-spacing: 0.4px;
+    -moz-letter-spacing: 0.4px;
+    -ms-letter-spacing: 0.4px;
+    letter-spacing: 0.4px;
+  }
+}
+
+@media (min-width:768px) {
+  .c0 {
+    height: 225px;
+    margin-top: 0;
+  }
+}
+
+@media (min-width:768px) {
+  .c0 .bg-right-top {
+    right: 0;
+    width: 52%;
+    height: 142px;
+    -webkit-transform: skewY(2.4deg);
+    -ms-transform: skewY(2.4deg);
+    transform: skewY(2.4deg);
+  }
+}
+
+@media (min-width:768px) {
+  .c0 .bg-right-bottom-desktop {
+    position: absolute;
+    right: 0;
+    bottom: -46px;
+    display: initial;
+    width: 90%;
+    height: 63px;
+    background-image: linear-gradient(to bottom,var(--wild-watermelon) 81%,rgba(233,49,78,0) 18%);
+    -webkit-transform: skewY(-3.9deg);
+    -ms-transform: skewY(-3.9deg);
+    transform: skewY(-3.9deg);
+  }
+}
+
+@media (min-width:768px) {
+  .c0 .bg-left {
+    top: -70%;
+    height: 158.2%;
+    background-image: linear-gradient( 82deg, var(--wild-watermelon) 2%, var(--pink-rose) 47%, var(--wild-watermelon) 95% );
+    -webkit-transform: skew(0deg,1.8deg);
+    -ms-transform: skew(0deg,1.8deg);
+    transform: skew(0deg,1.8deg);
+    -webkit-transform-origin: bottom left;
+    -ms-transform-origin: bottom left;
+    transform-origin: bottom left;
+  }
+}
+
+@media (min-width:576px) {
+  .c0 .bg-left-bottom {
+    right: 94px;
+    bottom: 49.6px;
+  }
+}
+
+@media (min-width:768px) {
+  .c0 .bg-left-bottom {
+    right: 176px;
+    bottom: 9.6px;
+    height: 50%;
+    -webkit-transform: skewY(-2deg);
+    -ms-transform: skewY(-2deg);
+    transform: skewY(-2deg);
+    -webkit-transform-origin: center;
+    -ms-transform-origin: center;
+    transform-origin: center;
+  }
+}
+
+@media (min-width:768px) {
+  .c0 .bg-left-top {
+    display: initial;
+    width: 33.5%;
+    height: 99px;
+    background-image: linear-gradient(to left,var(--white-transparent),var(--white) 50%);
+    -webkit-transform: skewY(-3.5deg);
+    -ms-transform: skewY(-3.5deg);
+    transform: skewY(-3.5deg);
+  }
+}
+
+<header
+  className="c0"
+>
+  <div>
+    Navbar component
+  </div>
+  <div
+    className="bg-left-bottom"
+  />
+  <div
+    className="bg-left"
+  >
+    <span
+      className="bg-right-bottom-desktop"
+    />
+  </div>
+  <div
+    className="bg-right-top"
+  />
+  <div
+    className="bg-left-top"
+  />
+  <div
+    className="c1"
+  >
+    <h1>
+      BlogHeader Component
+    </h1>
+  </div>
+</header>
+`;

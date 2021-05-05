@@ -1,0 +1,460 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should verify MobileCategoryMenu Component snapshot 1`] = `
+Array [
+  .c0 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 20;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 100%;
+  height: 60px;
+  padding: 1rem 1.5rem 1.3rem 2.4rem;
+  overflow-y: hidden;
+  background-color: var(--white);
+}
+
+.c0.border-bottom::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  content: '';
+  background-color: rgba(121,137,159,0.8);
+  opacity: 0.15;
+}
+
+.c0 h1 {
+  padding: 0;
+  margin: 0;
+  font-size: 1.8rem;
+  font-weight: 500;
+  font-stretch: normal;
+  color: var(--wild-watermelon);
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+}
+
+.c0 button {
+  position: relative;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.c0 button:focus {
+  border: none;
+  outline: none;
+}
+
+.c1.icon-12 {
+  width: 1.2rem;
+  height: 1.2rem;
+}
+
+.c1.icon-16 {
+  width: 1.6rem;
+  height: 1.6rem;
+}
+
+.c1.icon-18 {
+  width: 1.8rem;
+  height: 1.8rem;
+}
+
+.c1.icon-24 {
+  width: 2.4rem;
+  height: 2.4rem;
+}
+
+.c1.icon-32 {
+  width: 3.2rem;
+  height: 3.2rem;
+}
+
+.c1.icon-128 {
+  width: 12.8rem;
+  height: 3.8rem;
+}
+
+@media (orientation:landscape) {
+
+}
+
+<header
+    className="c0"
+  >
+    <h1>
+      Select Category
+    </h1>
+    <div>
+      <button
+        aria-label="close search"
+        className="close-button"
+        onClick={[Function]}
+        type="button"
+      >
+        <img
+          alt="close"
+          className="c1 icon-16"
+          src="test-file-stub"
+        />
+      </button>
+    </div>
+  </header>,
+  .c0 {
+  position: fixed;
+  top: 60px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 19;
+  display: block;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  pointer-events: auto;
+  background-color: var(--white);
+  background-clip: padding-box;
+  opacity: 1;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+  -webkit-transform: translateY(0);
+  -ms-transform: translateY(0);
+  transform: translateY(0);
+  --padding-bottom: calc(100% - 22em);
+}
+
+.c0 .content {
+  padding: 0 2.4rem var(--padding-bottom) 2.4rem;
+}
+
+.c0 ul {
+  padding: 0;
+  margin: 0;
+  overflow: auto;
+  list-style: none;
+}
+
+.c0 ul li.submenu {
+  --border-color: rgba(121,137,159,0.1);
+  border-top: 1px solid var(--border-color);
+  border-bottom: 1px solid var(--border-color);
+}
+
+.c0 ul li.submenu:last-child {
+  border-bottom: none;
+}
+
+.c0 ul li.submenu:first-child {
+  border-top: none;
+}
+
+.c0 ul li a {
+  display: block;
+}
+
+.c0 ul li a,
+.c0 ul li button {
+  padding: 0.4rem 0;
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 2;
+  color: var(--shuttle-grey);
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-letter-spacing: 0.23px;
+  -moz-letter-spacing: 0.23px;
+  -ms-letter-spacing: 0.23px;
+  letter-spacing: 0.23px;
+  -webkit-transition: 0.2s ease;
+  transition: 0.2s ease;
+}
+
+.c0 ul li.active a {
+  color: var(--wild-watermelon);
+}
+
+.c2 {
+  --border-color: rgba(121,137,159,0.1);
+  margin-top: 0.4rem;
+  border-top: 1px solid var(--border-color);
+  border-bottom: 1px solid var(--border-color);
+}
+
+.c2:last-child {
+  border-bottom: none;
+}
+
+.c2:first-child {
+  border-top: none;
+}
+
+.c2 button {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  text-align: start;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.c2 button:focus {
+  border: none;
+  outline: none;
+}
+
+.c2 button img {
+  position: relative;
+  top: 9px;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+
+.c2 ul {
+  display: none;
+  width: 100%;
+  opacity: 0;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+  -webkit-transform: translateY(-8px);
+  -ms-transform: translateY(-8px);
+  transform: translateY(-8px);
+}
+
+.c2 ul li {
+  padding-left: 1.6rem;
+}
+
+.c2 ul li a {
+  display: block;
+}
+
+.c2 ul li a,
+.c2 ul li button {
+  padding: 0.4rem 0;
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 2;
+  color: var(--shuttle-grey);
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-letter-spacing: 0.23px;
+  -moz-letter-spacing: 0.23px;
+  -ms-letter-spacing: 0.23px;
+  letter-spacing: 0.23px;
+  -webkit-transition: 0.2s ease;
+  transition: 0.2s ease;
+}
+
+.c2 ul li.active a {
+  color: var(--wild-watermelon);
+}
+
+.c3.icon-12 {
+  width: 1.2rem;
+  height: 1.2rem;
+}
+
+.c3.icon-16 {
+  width: 1.6rem;
+  height: 1.6rem;
+}
+
+.c3.icon-18 {
+  width: 1.8rem;
+  height: 1.8rem;
+}
+
+.c3.icon-24 {
+  width: 2.4rem;
+  height: 2.4rem;
+}
+
+.c3.icon-32 {
+  width: 3.2rem;
+  height: 3.2rem;
+}
+
+.c3.icon-128 {
+  width: 12.8rem;
+  height: 3.8rem;
+}
+
+.c1 {
+  padding: 0;
+  margin: 0;
+}
+
+@media (orientation:landscape) {
+  .c0 .content {
+    --padding-bottom: calc(50% - 22em);
+  }
+}
+
+<div
+    className="c0"
+  >
+    <div
+      className="content"
+    >
+      <ul>
+        <li
+          className="c1"
+        >
+          <a
+            href="/category/home/"
+          >
+            Home
+          </a>
+        </li>
+        <li
+          className="c1"
+        >
+          <a
+            href="/category/entrepreneurship/"
+          >
+            Entrepreneurship
+          </a>
+        </li>
+        <li
+          className="c1"
+        >
+          <a
+            href="/category/accounting/"
+          >
+            Accounting
+          </a>
+        </li>
+        <li
+          className="c1"
+        >
+          <a
+            href="/category/finance/"
+          >
+            Finance
+          </a>
+        </li>
+        <li
+          className="c1"
+        >
+          <a
+            href="/category/changethecourse/"
+          >
+            #ChangeTheCourse
+          </a>
+        </li>
+        <li
+          className="c1"
+        >
+          <a
+            href="/category/alumni/"
+          >
+            Alumni
+          </a>
+        </li>
+        <li
+          className="c1"
+        >
+          <a
+            href="/category/careers/"
+          >
+            Careers
+          </a>
+        </li>
+        <li
+          className="c1"
+        >
+          <a
+            href="/category/companies-universities/"
+          >
+            Companies & Universities
+          </a>
+        </li>
+        <li
+          className="c2"
+        >
+          <button
+            onClick={[Function]}
+            type="button"
+          >
+            Fields of Study
+            <img
+              alt="downChevron"
+              className="c3 icon-16"
+              src="test-file-stub"
+            />
+          </button>
+          <ul>
+            <li
+              className="c1"
+            >
+              <a
+                href="/category/fields-of-study/accounting/"
+              >
+                Accounting
+              </a>
+            </li>
+            <li
+              className="c1"
+            >
+              <a
+                href="/category/fields-of-study/data-analytics/"
+              >
+                Data Analytics
+              </a>
+            </li>
+            <li
+              className="c1"
+            >
+              <a
+                href="/category/fields-of-study/finance/"
+              >
+                Finance
+              </a>
+            </li>
+            <li
+              className="c1"
+            >
+              <a
+                href="/category/fields-of-study/strategy/"
+              >
+                Strategy
+              </a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>,
+]
+`;

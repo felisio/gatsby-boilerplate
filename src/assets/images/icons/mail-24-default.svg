@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+    <g fill="none" fill-rule="evenodd">
+        <g stroke="#59687C" stroke-width="1.5">
+            <g>
+                <g transform="translate(-7 -176) translate(7 176) translate(1 4)">
+                    <rect width="20.5" height="13.9" x=".75" y=".75" rx="2"/>
+                    <path stroke-linecap="square" d="M13 8L20 13M9 8l-7 5M1.98 1.791l8.392 6.767c.366.296.89.296 1.256 0l8.343-6.739h0"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
