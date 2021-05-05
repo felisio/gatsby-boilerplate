@@ -18,5 +18,5 @@ jobs:
         uses: bahmutov/npm-install@v1
       - env:
           GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
-        name: "Release a new version"
+        name: "Release a new version final"
         run: "yarn release"
