@@ -16,7 +16,7 @@ jobs:
           node-version: 12.x
       - name: "Install dependencies"
         uses: bahmutov/npm-install@v1
-      - env:
+      - name: Release a new version
+        run: yarn release
+        env:
           GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
-        name: "Release a new version final"
-        run: "yarn release"
