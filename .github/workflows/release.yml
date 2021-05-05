@@ -1,3 +1,10 @@
+name: Release
+
+on:
+  push:
+    branches:
+      - main
+
 jobs:
   production:
     runs-on: ubuntu-latest
@@ -13,8 +20,3 @@ jobs:
           GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
         name: "Release a new version"
         run: "yarn release"
-name: Release
-true:
-  push:
-    branches:
-      - main
