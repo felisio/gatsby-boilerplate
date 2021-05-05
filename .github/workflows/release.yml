@@ -1,3 +1,10 @@
+name: Release
+
+on:
+  push:
+    branches:
+      - main
+
 jobs:
   production:
     runs-on: ubuntu-latest
@@ -11,10 +18,5 @@ jobs:
         uses: bahmutov/npm-install@v1
       - env:
           GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
-        name: "Release a new version"
+        name: "Release a new version final"
         run: "yarn release"
-name: Release
-true:
-  push:
-    branches:
-      - main
