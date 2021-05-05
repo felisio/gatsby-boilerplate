@@ -1,8 +1,3 @@
-/**
- * Configure your Gatsby site with this file.
- *
- * See: https://www.gatsbyjs.com/docs/gatsby-config/
- */
 import dotenv from "dotenv";
 
 const activeEnv =
