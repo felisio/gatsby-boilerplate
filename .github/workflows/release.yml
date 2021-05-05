@@ -1,10 +1,10 @@
 name: Release
-​
+
 on:
   push:
     branches:
       - main
-​
+
 jobs:
   production:
     runs-on: ubuntu-latest
