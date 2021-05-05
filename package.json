@@ -1,5 +1,5 @@
 {
-  "name": "quantic-gatsby-marketing",
+  "name": "quantic-gatsby-boilerplate",
   "private": true,
   "description": "Quantic.edu | Gatsby 👨🏻‍🏫",
   "version": "0.1.0",
@@ -122,6 +122,8 @@
     }
   },
   "release": {
-    "branches": ["main"]
+    "branches": [
+      "main"
+    ]
   }
 }
